@@ -18,6 +18,7 @@ opkg update
 /opt/victronenergy/serial-starter/stop-tty.sh ttyUSB0 
 ```
 <<https://github.com/victronenergy/venus/wiki/howto-add-a-driver-to-Venus#3-installing-a-driver>>
+for more details on the above step
 ```
 opkg install python-pip
 ```
