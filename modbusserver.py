@@ -33,8 +33,6 @@ context = ModbusServerContext(slaves=store, single=True)
 
 def signal_handler(sig, frame):
     log.info("Exiting on Ctrl+C")
-    reactor.callFromThread(reactor.stop)
-    server_thread.join()
     client.close()
     sys.exit(0)
 
