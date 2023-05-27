@@ -27,9 +27,9 @@ pip install pymodbus twisted
 ```
 nano modbusserver.py
 ```
-<< Paste the code from the file modbusserver.py>> if there is interest i will create the direct downloads and installer.
+<< Paste the code from the file modbusserver.py>>
  << Save and Exit >>
-
+if there is interest i will create the direct downloads and installer.
 ```
  python modbusserver.py
 ```
