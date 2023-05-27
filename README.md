@@ -56,3 +56,4 @@ and then pkill the number in the first line
 screen would be screen -r and then kill it.
 
 ### if i get some stars and downloads or sponsors on this i will prob put a bit more time into it. make it a serivce and make the code more robust
+## at the stage this just read registers and will miss packets under heavy load, so need to make it more robust before adding write coils back in.
