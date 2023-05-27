@@ -1,5 +1,5 @@
-# Victron Cerbero Modus Server
-A modbus server instance to run on the the cerbero or venus on port 5020 and use a usb to 485 device to allow another service to use it as a modbus TCP server so that it can interigte what is on the other side, for me its a sunsynk inverter
+# Victron Cerbo Modus Server
+A modbus server instance to run on the the cerbo or venus on port 5020 and use a usb to 485 device to allow another service to use it as a modbus TCP server so that it can interigte what is on the other side, for me its a sunsynk inverter
 
 
 Instalation instructions
@@ -27,7 +27,7 @@ pip install pymodbus twisted
 ```
 nano modbusserver.py
 ```
-<< Paste the code from the file >>
+<< Paste the code from the file modbusserver.py>> if there is interest i will create the direct downloads and installer.
  << Save and Exit >>
 
 ```
