@@ -12,7 +12,7 @@ log.setLevel(logging.DEBUG)
 
 # Initialize Modbus RTU client
 client = ModbusSerialClient(method='rtu', port='/dev/ttyUSB0', baudrate=9600, stopbits=1, parity='N', bytesize=8, timeout=1)
-
+log.info("Startup Welcome https://github.com/cybertza/victron_cerbo_modus_server")
 # Make sure we can connect to the serial port
 if not client.connect():
     log.error("Unable to connect to /dev/ttyUSB0")
